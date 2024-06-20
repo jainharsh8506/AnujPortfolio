@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Awards - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet" />
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/preloader.min.css" rel="stylesheet" />
+    <link href="css/circle.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/custom.css" rel="stylesheet" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+    <style>
+      /* Additional CSS for fixed card sizes and image scaling */
+      .grid figure {
+        width: 300px; /* Fixed width */
+        height: 300px; /* Fixed height */
+        margin: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+      .grid figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Scale the image to fit within the figure */
+        transition: transform 0.3s;
+      }
+      .grid figure:hover img {
+        transform: scale(1.1);
+      }
+      .category-section {
+        margin-top: 40px;
+      }
+      .category-title {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+
+  <body class="portfolio light">
+    <!-- Header Starts -->
+    <header class="header" id="navbar-collapse-toggle">
+      <!-- Fixed Navigation Starts -->
+      <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+          <i class="fa fa-home"></i>
+          <a href="index.html">
+            <h2>Home</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-user"></i>
+          <a href="about.html">
+            <h2>About</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-trophy"></i>
+          <a href="awards.html">
+            <h2>Awards</h2>
+          </a>
+        </li>
+        <li class="icon-box active">
+          <i class="fa fa-briefcase"></i>
+          <a href="portfolio.html">
+            <h2>Portfolio</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-envelope-open"></i>
+          <a href="contact.html">
+            <h2>Contact</h2>
+          </a>
+        </li>
+      </ul>
+      <!-- Fixed Navigation Ends -->
+      <!-- Mobile Menu Starts -->
+      <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="list-unstyled" id="menu">
+            <li>
+              <a href="index.html"><i class="fa fa-home"></i><span>Home</span></a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa fa-user"></i><span>About</span></a>
+            </li>
+            <li class="active">
+              <a href="awards.html"
+                ><i class="fa fa-trophy"></i><span>Awards</span></a
+              >
+            </li>
+            <li class="active">
+              <a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a>
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Menu Ends -->
+    </header>
+    <!-- Header Ends -->
+    <!-- Page Title Starts -->
+    <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+      <h1>my <span>awards</span></h1>
+      <span class="title-bg">recognition</span>
+    </section>
+    <!-- Page Title Ends -->
+    <!-- Main Content Starts -->
+    <section class="main-content text-center revealator-slideup revealator-once revealator-delay1">
+      <div class="container grid-gallery">
+        <!-- Awards Grid Starts -->
+        <section class="grid-wrap">
+          <h2 class="category-title">Awards & Achievements</h2>
+          <ul class="row grid">
+            <!-- Award Item Starts -->
+            <li>
+              <figure>
+                <img src="img/awards/award1.jpg" alt="Award 1" />
+                <div><span>Award 1</span></div>
+              </figure>
+            </li>
+            <!-- Award Item Ends -->
+            <!-- Award Item Starts -->
+            <li>
+              <figure>
+                <img src="img/awards/award2.jpg" alt="Award 2" />
+                <div><span>Award 2</span></div>
+              </figure>
+            </li>
+            <!-- Award Item Ends -->
+            <!-- Award Item Starts -->
+            <li>
+              <figure>
+                <img src="img/awards/award3.jpg" alt="Award 3" />
+                <div><span>Award 3</span></div>
+              </figure>
+            </li>
+            <!-- Award Item Ends -->
+            <!-- Add more award items as needed -->
+          </ul>
+        </section>
+        <!-- Awards Grid Ends -->
+      </div>
+    </section>
+    <!-- Main Content Ends -->
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

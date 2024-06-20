@@ -36,6 +36,15 @@
 
 		if ($('.grid').length) {
 			new CBPGridGallery(document.getElementById('grid-gallery'));
+			new CBPGridGallery(document.getElementById('grid-gallery-1'));
+			new CBPGridGallery(document.getElementById('grid-gallery-2'));
+			new CBPGridGallery(document.getElementById('grid-gallery-3'));
+			new CBPGridGallery(document.getElementById('grid-gallery-4'));
+			new CBPGridGallery(document.getElementById('grid-gallery-5'));
+			new CBPGridGallery(document.getElementById('grid-gallery-6'));
+			new CBPGridGallery(document.getElementById('grid-gallery-7'));
+			new CBPGridGallery(document.getElementById('grid-gallery-8'));
+			new CBPGridGallery(document.getElementById('grid-gallery-9'));
 		}
 
 		/* ----------------------------------------------------------- */
